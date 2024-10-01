@@ -1,0 +1,2 @@
+# gaji.io
+Imbal hasil
