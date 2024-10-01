@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perhitungan Gaji Kurir</title>
+    <link rel="stylesheet" href="Gaji.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Imbal Hasil</h1>
+        <label for="jumlahDelivery">Jumlah Paket Delivery:</label>
+        <input type="number" id="jumlahDelivery" min="0">
+    
+        <label for="jumlahPickup">Jumlah Paket Pickup:</label>
+        <input type="number" id="jumlahPickup" min="0">
+    
+        <label for="prioritasDelivery">Jumlah Paket Delivery Prioritas (*):</label>
+        <input type="number" id="prioritasDelivery" min="0">
+    
+        <label for="prioritasPickup">Jumlah Paket Pickup Prioritas (*):</label>
+        <input type="number" id="prioritasPickup" min="0">
+    
+        <label for="berat5">Jumlah Paket Berat (5-7 Kg):</label>
+        <input type="number" id="berat5" min="0">
+    
+        <label for="berat7">Jumlah Paket Berat (7-10 Kg):</label>
+        <input type="number" id="berat7" min="0">
+    
+        <label for="berat10">Jumlah Paket Berat (>10 Kg):</label>
+        <input type="number" id="berat10" min="0">
+    
+        <button onclick="hitungGaji()">Hitung Gaji</button>
+    
+        <div class="result" id="hasilGaji"></div>
+    </div>
+
+    <script src="Gaji.js"></script>
+</body>
+</html>
